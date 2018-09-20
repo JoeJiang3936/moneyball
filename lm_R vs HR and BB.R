@@ -11,3 +11,4 @@ Galton_heights <- Teams%>%filter(yearID %in% 1961:2001)%>%
 
 fit_R_HR_BB <- lm(R_per_game~HR_per_game+BB_per_game, Galton_heights)
 fit_R_HR_BB
+class(fit_R_HR_BB)
